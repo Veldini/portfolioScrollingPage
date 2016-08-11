@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Background images - fullPage.js</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage full-screen backgrounds." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,backgrounds,full-screen" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+    <link rel="stylesheet" type="text/css" href="slidertoggle.css" />
+
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:left;
+        
+
+	}
+
+    .fp-slidesNav.bottom{
+		bottom: 25px;
+	}
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(imgs/evaOGS3.jpg);
+		padding: 0% 0 0 0;
+	}
+    	#section1{
+		background-image: url(imgs/cocrea.jpg);
+		padding: 0% 0 0 0;
+	}
+	#section2{
+		background-image: url(imgs/peanut4.jpg);
+		padding: 0% 0 0 0;
+	}
+	#section3{
+		background-image: url(imgs/famgem.jpg);
+		padding: 0% 0 0 0;
+	}
+
+    #section4{
+		background-image: url(imgs/minimi.jpg);
+		padding: 0% 0 0 0;
+	}
+    #section5{
+		background-image: url(imgs/inge2.jpg);
+		padding: 0% 0 0 0;
+	}
+
+
+
+
+
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    
+
+	<script type="text/javascript" src="../jquery.fullPage.js"></script>
+    <script type="text/javascript" src="menuProef.js"></script>
+    <script type="text/javascript" src="kiekeboo.js"></script>
+    <script type="text/javascript" src="slider.js"></script>
+
+    <script type="text/javascript">
+		$(document).ready(function() {
+		    $('#fullpage').fullpage({
+		        menu: '#menu',
+		        continuousVertical: true,
+		        anchors: ['eva', 'covisit', 'peanut', 'famgem', 'minime', 'contacts']
+
+
+			});
+
+		});
+
+
+    </script>
+
+</head>
+<body>
+
+    <ul id="menu">
+    <li data-menuanchor="eva" class="a" id="id1"><a href="#eva"><img src="imgs/eva-02.svg" /></a></li>
+    <li data-menuanchor="covisit" class="a" id="id2"><a href="#covisit"><img src="imgs/visit-01.svg" /></a></li>
+    <li data-menuanchor="peanut" class="a" id="id3"><a href="#peanut"><img src="imgs/peanut-03.svg" /></a></li>
+    <li data-menuanchor="famgem" class="a" id="id4"><a href="#famgem"><img src="imgs/gem-04.svg" /></a></li>
+    <li data-menuanchor="minime" class="a" id="id5"><a href="#minime"><img src="imgs/me-05.svg" /></a></li>
+    <li data-menuanchor="contacts" class="a" id="id6"><a href="#contacts"><img src="imgs/contact-07.svg" /></a></li>
+    </ul>
+
+
+<div id="fullpage">
+	
+    <div class="section " id="section0">
+        <div id="toggle">
+            <div id="toggle-button"><img src="imgs/camPink.svg" width="40" height="40" /></div>
+            <div class="tekst">
+                <h1>Eva</h1>
+                <p>Operation Grey Squirrel is een spannende location-based game ontwikkeld in opdracht van het Militair Revalidatie Centrum (MRC) Aardenburg te Doorn. Revaliderende militairen jagen een fictief personage achterna met behulp van een audio-kompas. Deze game richt zich op de verbetering van de ervaring van het hardlopen. Eva is de naam van de applicatie waar Operation Grey Squirrel op draait. </p>
+                <p><span>Role: Conceptdevelopment / Research / Functional design / Visual design / Usability testing</span></p>
+            </div>
+
+            <div id="slider">
+
+                <img id='container' src="imgs/eva.jpg" height="380" />
+
+                <div id="sliderNav">
+                    <input type='image' name="prev" src="imgs/prev.svg" width="30" height="30" alt='previous' onclick='ic0.prev("container")' />
+                    <input type='image' name="next" src="imgs/next.svg" width="30" height="30" alt='next' onclick='ic0.next("container")' />
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+	
+    
+    
+    <div class="section" id="section1">
+        <div id="toggle1">
+            <div id="toggle-button1"><img src="imgs/camPink.svg" width="40" height="40" /></div>
+            <div class="tekst">
+                <h1>Co-Visit</h1>
+                <p>Deze live tour is speciaal gemaakt voor mensen die slecht ter been zijn en daardoor het historische huis met vele trappen niet kunnen betreden. Bezoekers doen de tour in paren: de mobiele bezoeker neemt de minder mobiele bezoeker virtueel mee op een rondwandeling door het huis. Tijdens de tour kunnen ze met elkaar communiceren en elkaar wijzen op wat ze zien. Zo wordt het bezoek alsnog een gezamenlijke ervaring.  </p>
+                <p><span>Role: Interface design / Wireframing / Flowcharts / Logo design / Co-creatie</span></p>
+               
+            </div>
+            <div id="slider1">
+                <img id='container1' src="imgs/onslieve.jpg" height="380" />
+                <div id="sliderNav1">
+                    <input type='image' name="prev" src="imgs/prev.svg" width="30" height="30" alt='previous' onclick='ic1.prev("container1")' />
+                    <input type='image' name="next" src="imgs/next.svg" width="30" height="30" alt='next' onclick='ic1.next("container1")' />
+                </div>
+            </div>
+        </div>
+	</div>
+
+
+
+    <div class="section" id="section2">
+        <div id="toggle2">
+            <div id="toggle-button2"><img src="imgs/camPink.svg" width="40" height="40" /></div>
+            <div class="tekst">
+                <h1>Why did the monster cross the city?</h1>
+                <p>De kleinkinderen delen tegenwoordig op heel eenvoudige wijze alles wat ze maar willen over hun leven met bekenden, vrienden en familie. Oma en opa leven echter vaak geheel langs deze nieuw gemaakte herinneringen heen. FamGem biedt hier een oplossing voor. Klein kinderen versturen met hetzelfde gemak via een applicatie een foto en video die ze delen willen met hun grootouders. </p>
+                <p><span>Role: Conceptdevelopment / Hardware development / Coordination</span></p>
+            </div>
+            <div id="slider2">
+                <img id='container2' src="imgs/peanut.jpg" height="380" />
+                <div id="sliderNav2">
+                    <input type='image' name="prev" src="imgs/prev.svg" width="30" height="30" alt='previous' onclick='ic2.prev("container2")' />
+                    <input type='image' name="next" src="imgs/next.svg" width="30" height="30" alt='next' onclick='ic2.next("container2")' />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="section" id="section3">
+        <div id="toggle3">
+            <div id="toggle-button3"><img src="imgs/camPink.svg" width="40" height="40" /></div>
+            <div class="tekst">
+                <h1>FamGem</h1>
+                <p>De kleinkinderen delen tegenwoordig op heel eenvoudige wijze alles wat ze maar willen over hun leven met bekenden, vrienden en familie. Oma en opa leven echter vaak geheel langs deze nieuw gemaakte herinneringen heen. FamGem biedt hier een oplossing voor. Klein kinderen versturen met hetzelfde gemak via een applicatie een foto en video die ze delen willen met hun grootouders. </p>
+                <p><span>Role: Research / Conceptontwikkeling / Prototype design / Lasercutting / Branding </span></p>
+            </div>
+            <div id="slider3">
+                <img id='container3' src="imgs/famgem.jpg" height="380" />
+                <div id="sliderNav3">
+                    <input type='image' name="prev" src="imgs/prev.svg" width="30" height="30" alt='previous' onclick='ic3.prev("container3")' />
+                    <input type='image' name="next" src="imgs/next.svg" width="30" height="30" alt='next' onclick='ic3.next("container3")' />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="section" id="section4">
+        <div id="toggle4">
+            <div id="toggle-button4"><img src="imgs/camPink.svg" width="40" height="40" /></div>
+            <div class="tekst">
+                <h1>Mini-me</h1>
+                <p>Geinspireerd op de bekende matroesjkas, representeren deze papieren poppen de lagen van mijn persoonlijkheid. Van mijn inner chef en luie film kijk modus tot mijn sportieve kant. Het structureren en vastleggen van informatie over mijzelf op een andere manier was een leuke uitdaging.</p>
+                <p><span>Conceptdevelopment / Visual design</span></p>
+            </div>
+            <div id="slider4">
+                <img id='container4' src="imgs/minime.jpg" height="380" />
+                <div id="sliderNav4">
+                    <input type='image' name="prev" src="imgs/prev.svg" width="30" height="30" alt='previous' onclick='ic4.prev("container4")' />
+                    <input type='image' name="next" src="imgs/next.svg" width="30" height="30" alt='next' onclick='ic4.next("container4")' />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="section" id="section5">
+        <div id="contact">
+            <div class="tekst">
+                <h1>Contact info</h1>
+                <p>For questions regarding projects of other topics you can contact me via the following adress. </p>
+            </div>
+    </div>
+        </div>
+   
+
+</div>
+
+</body>
+</html>

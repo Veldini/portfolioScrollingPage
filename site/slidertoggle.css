@@ -1,0 +1,314 @@
+﻿
+/* Toggle
+ * --------------------------------------- */
+
+#toggle{
+    height:460px;
+    width:470px;
+    margin-left:40px;
+    background-color:#fff;
+
+
+}
+#toggle-button{
+    margin-top:40px;
+    margin-right:-20px;
+    margin-left:20px;
+    height:40px;
+    width:40px;
+    float:right;
+
+}
+#slider{
+    position:relative;
+    display:inline-block;
+    height:460px;
+    float:right;
+    
+}
+
+#sliderNav{
+    position:relative;
+    width:66px;
+    height:30px;
+    z-index: 30;
+    margin-top:-40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Toggle1
+ * --------------------------------------- */
+
+#toggle1{
+    height:460px;
+    width:470px;
+    background-color:#fff;
+    margin-left:40px;
+
+}
+#toggle-button1{
+    margin-top:40px;
+    margin-right:-20px;
+    margin-left:20px;
+    height:40px;
+    width:40px;
+    float:right;
+
+}
+#slider1{
+    position:relative;
+    display:inline-block;
+    height:460px;
+    float:right;
+    
+}
+
+#sliderNav1{
+    position:relative;
+    width:66px;
+    height:30px;
+    z-index: 30;
+    margin-top:-40px;
+    margin-left:auto;
+    margin-right:auto;
+}.tekst{
+    float:left;
+    width:370px;
+    height:380px;
+    margin-left:40px;
+    margin-top:40px;
+}
+ #contact{
+    height:460px;
+    width:470px;
+    background-color:#fff;
+    margin-left:40px;
+
+}
+/* Toggle
+ * --------------------------------------- */
+
+#toggle{
+    height:460px;
+    width:470px;
+    background-color:#fff;
+    margin-left:40px;
+
+}
+#toggle-button{
+    margin-top:40px;
+    margin-right:-20px;
+    margin-left:20px;
+    height:40px;
+    width:40px;
+    float:right;
+
+}
+#slider{
+    position:relative;
+    display:inline-block;
+    height:460px;
+    float:right;
+    
+}
+
+#sliderNav{
+    position:relative;
+    width:66px;
+    height:30px;
+    z-index: 30;
+    margin-top:-40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Toggle1
+ * --------------------------------------- */
+
+#toggle1{
+    height:460px;
+    width:470px;
+    background-color:#fff;
+    margin-left:40px;
+
+}
+#toggle-button1{
+    margin-top:40px;
+    margin-right:-20px;
+    margin-left:20px;
+    height:40px;
+    width:40px;
+    float:right;
+
+}
+#slider1{
+    position:relative;
+    display:inline-block;
+    height:460px;
+    float:right;
+    
+}
+
+#sliderNav1{
+    position:relative;
+    width:66px;
+    height:30px;
+    z-index: 30;
+    margin-top:-40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* Toggle2
+ * --------------------------------------- */
+
+#toggle2{
+    height:460px;
+    width:470px;
+    background-color:#fff;
+    margin-left:40px;
+
+}
+#toggle-button2{
+    margin-top:40px;
+    margin-right:-20px;
+    margin-left:20px;
+    height:40px;
+    width:40px;
+    float:right;
+
+}
+#slider2{
+    position:relative;
+    display:inline-block;
+    height:460px;
+    float:right;
+    
+}
+
+#sliderNav2{
+    position:relative;
+    width:66px;
+    height:30px;
+    z-index: 30;
+    margin-top:-40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Toggle3
+ * --------------------------------------- */
+
+#toggle3{
+    height:460px;
+    width:470px;
+    background-color:#fff;
+    margin-left:40px;
+
+}
+#toggle-button3{
+    margin-top:40px;
+    margin-right:-20px;
+    margin-left:20px;
+    height:40px;
+    width:40px;
+    float:right;
+
+}
+#slider3{
+    position:relative;
+    display:inline-block;
+    height:460px;
+    float:right;
+    
+}
+
+#sliderNav3{
+    position:relative;
+    width:66px;
+    height:30px;
+    z-index: 30;
+    margin-top:-40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Toggle4
+ * --------------------------------------- */
+
+#toggle4{
+    height:460px;
+    width:470px;
+    background-color:#fff;
+    margin-left:40px;
+
+}
+#toggle-button4{
+    margin-top:40px;
+    margin-right:-20px;
+    margin-left:20px;
+    height:40px;
+    width:40px;
+    float:right;
+
+}
+#slider4{
+    position:relative;
+    display:inline-block;
+    height:460px;
+    float:right;
+    
+}
+
+#sliderNav4{
+    position:relative;
+    width:66px;
+    height:30px;
+    z-index: 30;
+    margin-top:-40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Slider
+ * --------------------------------------- */
+
+#currentImage{
+    width:580px;
+    height:380px;
+}
+#container{
+    width:620px;
+    height:380px;
+    position:relative;
+    margin-top:40px;
+    z-index:20;
+}
+#container1{
+    width:620px;
+    height:380px;
+    position:relative;
+    margin-top:40px;
+    z-index:20;
+}
+#container2{
+    width:620px;
+    height:380px;
+    position:relative;
+    margin-top:40px;
+    z-index:20;
+}
+#container3{
+    width:620px;
+    height:380px;
+    position:relative;
+    margin-top:40px;
+    z-index:20;
+}
+#container4{
+    width:620px;
+    height:380px;
+    position:relative;
+    margin-top:40px;
+    z-index:20;
+}
